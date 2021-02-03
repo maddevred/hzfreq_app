@@ -12,6 +12,11 @@ const path = require('path');
 const fileUpload = require('express-fileupload');
 const {MongoClient} = require('mongodb');
 
+const httpServer = require('http').createServer({...});
+httpServer.timeout = 25 * 1000;
+httpServer.keepAliveTimeout = 70 * 1000;
+httpServer.headersTimeout = 120 * 1000;
+
 require('./config/passport')(passport)
 
 mongoose.connect('mongodb://localhost/test',{useNewUrlParser: true, useUnifiedTopology : true})
