@@ -1,19 +1,22 @@
 {
   "development": {
     "username": "postgres",
-    "database": "express_auth_development",
+    "password": "open",
+    "database": "hzfreq_development",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
     "username": "postgres",
-    "database": "express_auth_test",
+    "password": "open",
+    "database": "hzfreq_test",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
     "username": "postgres",
-    "database": "express_auth_production",
+    "password": "open",
+    "database": "hzfreq_production",
     "host": "127.0.0.1",
     "dialect": "postgres"
   }
