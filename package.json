@@ -3,10 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./app.js"
   },
   "dependencies": {
+    "async": "^0.9.2",
+    "await": "^0.2.6",
     "bcrypt": "^5.0.0",
+    "body-parser": "^1.18.3",
     "connect-flash": "^0.1.1",
     "cookie-parser": "^1.4.5",
     "debug": "~2.6.9",
@@ -16,12 +19,25 @@
     "express-ejs-layouts": "^2.5.0",
     "express-fileupload": "^1.2.1",
     "express-session": "^1.17.1",
+    "heroku": "^7.47.11",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
+    "jimp": "^0.16.1",
+    "mongodb": "^3.6.3",
     "mongoose": "^5.11.14",
     "morgan": "~1.9.1",
     "multer": "^1.4.2",
+    "multer-storage-cloudinary": "^4.0.0",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.7",
     "passport": "^0.4.1",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "pg": "^8.5.1",
+    "php": "^1.0.1",
+    "sequelize": "^6.5.0",
+    "sharp": "^0.27.1",
+    "streamifier": "^0.1.1",
+    "upload": "^1.1.1",
+    "uuid": "^3.3.2"
   }
 }
