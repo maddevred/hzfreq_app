@@ -1,7 +1,6 @@
 {
   "development": {
     "username": "postgres",
-    "password": "open",
     "database": "hzfreq_development",
     "host": "127.0.0.1",
     "dialect": "postgres"
@@ -9,14 +8,12 @@
   
   "test": {
     "username": "postgres",
-    "password": "open",
     "database": "hzfreq_test",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
     "username": "postgres",
-    "password": "open",
     "database": "hzfreq_production",
     "host": "127.0.0.1",
     "dialect": "postgres"
