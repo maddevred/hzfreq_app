@@ -20,6 +20,7 @@ app.get('/', (req, res) => {
 const server = app.listen(3000, () => {
   console.log(` welcome to my website :))) `);
 });
+const port = app.listen(process.env.PORT, '0.0.0.0');
 
 // const server = app.listen(3000, () => {
 //   console.log(` welcome to my website :))) `);
